@@ -106,9 +106,9 @@ set(COMPONENT_SRCS
 )
 endif()
 
-if (CONFIG_ESP32_S3_BOX_BOARD)
+if (CONFIG_ESP32_S3_BOX_3_BOARD)
 message(STATUS "Current board name is " CONFIG_ESP32_S3_BOX_3_BOARD)
-list(APPEND COMPONENT_ADD_INCLUDEDIRS ./esp32_s3_box3)
+list(APPEND COMPONENT_ADD_INCLUDEDIRS ./esp32_s3_box_3)
 set(COMPONENT_SRCS
 ./esp32_s3_box_3/board.c
 ./esp32_s3_box_3/board_pins_config.c
