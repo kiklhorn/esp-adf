@@ -29,7 +29,7 @@
  * @brief LCD SCREEN Function Definition
  */
 #define FUNC_LCD_SCREEN_EN          (1)
-#define LCD_CTRL_GPIO               GPIO_NUM_45
+#define LCD_CTRL_GPIO               GPIO_NUM_47
 #define LCD_RST_GPIO                GPIO_NUM_48
 #define LCD_DC_GPIO                 GPIO_NUM_4
 #define LCD_CS_GPIO                 GPIO_NUM_5
